@@ -1,0 +1,7 @@
+dn: cn=user,ou=group,dc=domain,dc=com
+changeType: modify
+add: objectClass
+objectClass: ldapPublicKey
+
+add: sshPublicKey
+sshPublicKey: ssh-rsa AAAAB3NzaC1yc2EAABBDAQABAFFBAQDX9uIBEySOR6tASa4RIgUo6TTOi+o3hIWkxJGlfajHQY9f73LONotAPKgDfEdvrvY+0pW3zXe3pmr4GhQzP2c1EMYmwVdkkQLtn/FHFICLHCyihN2byMe14v4iv1em6XXLqVB7cbxi2XKHHfa50tqgeEJTIRVbFVht9WCdHQ9VUvwnCUda6wDt3E1q+tAaUOldrfFl3KR4LQThOUOEOtaG1eU2Q/fk1j5qLMH2sDtzYnTp2MgLVAElC7XH9QDWz4+I3uxeYOweUhvBnBx+Ti2ZkzZjchRbkawa4v/woySmWove7nzpBPYWJ8mBdRecVfcY+/jZDSe2Phgfzgf3cRTvs3tF user@workstation
