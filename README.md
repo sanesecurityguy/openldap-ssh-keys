@@ -1,6 +1,6 @@
 # OpenLDAP SSH Keys
 
-These are a series of files that allow OpenLDAP to store SSH keys, and then allow an SSH server (typically OpenSSH) to fetch those keys to authenticate users. It includes a custom OpenLDAP schema in .ldif format, an OpenSSH server config file drop-in, and a shell script to allow OpenSSH to query the OpenLDAP server.
+These are a series of files that allow OpenLDAP to store SSH keys, and then allow an SSH server (typically OpenSSH) to fetch those keys to authenticate users. It includes a custom OpenLDAP schema in .ldif format, an OpenSSH server config file drop-in, and a shell script that an SSH server can use to query the OpenLDAP server.
 
 ### Setup
 
