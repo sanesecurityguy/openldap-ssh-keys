@@ -8,7 +8,7 @@ These are a series of files that allow OpenLDAP to store SSH keys, and then allo
 Add openldap-ssh-keys.ldif to your OpenLDAP config with `ldapadd`
 
 #### OpenSSH
-1. Add the fetch-openldap-ssh-keys.sh script to /usr/local/sbin/ or wherever you want it to be run from. If you choose a different location, be sure to change it in the support-openldap-ssh-keys.conf file as well.
+1. Add the fetch-openldap-ssh-keys.sh script to /usr/local/bin/ or wherever you want it to be run from. If you choose a different location, be sure to change it in the support-openldap-ssh-keys.conf file as well.
 2. Add support-openldap-ssh-keys.conf to /etc/ssh/sshd_config.d/
 3. Restart SSHD with `systemctl restart sshd.service`
 
